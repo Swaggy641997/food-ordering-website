@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fefefe;
+}
+
+header {
+  background: #ff6347;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart {
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  margin: 0.5rem 0;
+}

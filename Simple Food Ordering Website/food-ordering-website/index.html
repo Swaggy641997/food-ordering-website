@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food Order</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🍔 Food Delivery</h1>
+  </header>
+
+  <section class="menu">
+    <div class="item">
+      <img src="https://via.placeholder.com/150" alt="Burger" />
+      <h2>Burger</h2>
+      <p>$8.99</p>
+      <button onclick="addToCart('Burger', 8.99)">Add</button>
+    </div>
+    <div class="item">
+      <img src="https://via.placeholder.com/150" alt="Pizza" />
+      <h2>Pizza</h2>
+      <p>$12.49</p>
+      <button onclick="addToCart('Pizza', 12.49)">Add</button>
+    </div>
+  </section>
+
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="total">0.00</span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
